@@ -1,54 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Login Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <h1>Balaji</h1>
-        <p>Web Developer | Sports athlete| Student </p>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello,my name is balaji I'm a 2nd year computer science student of Srm Trp Engineering college then I'm a state level basketball player winnig a national level baketball tournament in 2021 Now i'm focusing for web developement  .</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-    <h2>Projects</h2>
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('web')">Web</button>
-    <button onclick="filterProjects('app')">App</button>
-
-    <div class="project web">
-        <h3>Web Project 1</h3>
-        <p>This is my own portfolio project.</p>
-    </div>
-    <div class="project app">
-        <h3>App Project 1</h3>
-        <p>Description of the app project.</p>
-    </div>
-    <!-- Add more projects as needed -->
-</section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out at <a href="mailto:mailto:your-email@example.com"">balajivtnj07@gmail.com</a>.</p>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
-
+  <div class="login-container">
+    <h2>Welcome Back!</h2>
+    <p>Please log in to your account</p>
+    <form action="#" method="POST">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="login-btn">Login</button>
+      <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+    </form>
+  </div>
 </body>
 </html>
